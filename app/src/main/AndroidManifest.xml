@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.szymo.BudgetApp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PersonalBudgetingApp">
+        <activity
+            android:name="pl.szymo.BudgetApp.VideoActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.AccountActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.HistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.MonthlyAnalyticsActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.WeeklyAnalyticsActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.DailyAnalyticsActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.ChooseAnalyticActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.WeekSpendingActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.TodaySpendingActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.BudgetActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name="pl.szymo.BudgetApp.LoginActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="pl.szymo.BudgetApp.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
